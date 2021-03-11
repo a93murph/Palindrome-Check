@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.box {
+    text-align: center;
+}
