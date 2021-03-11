@@ -1,2 +1,2 @@
-# fcc_palin
+# palindromes
 Palindrome Test
