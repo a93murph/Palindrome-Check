@@ -1,13 +1,23 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-
+body {
+  background: url(https://newcriterion.com/cm/images//Marshall_bach2.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
 h1 {
-    color: blue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+  margin-top: 4em;
+  color: bisque;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+p {
+  color: bisque;
+  font-size: 20px;
+  font-style: italic;
 }
 
 .box {
-    text-align: center;
+  text-align: center;
 }
