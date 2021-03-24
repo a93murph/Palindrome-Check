@@ -12,12 +12,16 @@ function palindrome(str) {
     return false;
   }
 }
+
+const form = document.querySelector(".form")
+
 const button = document.querySelector(".event-button");
 
 const input = document.querySelector(".input");
 const output = document.querySelector(".output");
 
-button.addEventListener("click", (x) => {
+form.addEventListener("submit", (event) => {
+  event.preventDefault()
   const result = palindrome(input.value);
   let text = "";
   if (result === true) {
